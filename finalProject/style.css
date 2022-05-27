@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Tiro+Devanagari+Marathi&display=swap');
+/**CSS rules to specify families
+font-family: 'Quicksand', sans-serif;
+font-family: 'Tiro Devanagari Marathi', serif;**/
+body {
+    margin: auto;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Tiro Devanagari Marathi', serif;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 50px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Tiro Devanagari Marathi', serif;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 25px;
+}
+
+main {
+    text-align: center;
+}
+
+/*home*/
+.homebanner {
+    display: flex;
+    margin: auto;
+}
+
+#desk {
+    object-fit: cover;
+    width: 740px;
+}
+
+/*apps intro*/
+.rowofImages {
+    display: inline-flex;
+    object-fit: cover;
+    height: auto;
+    max-height: 300px;
+}
+
+.imgGroup {
+width: 30%;
+height: auto;
+margin: 0 auto;
+}
+
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    margin: 30px 200px;
+}
+.hidden {
+    display: none;
+}
+
+/*about me*/
+#tam {
+    object-fit: cover;
+    width: 740px;
+}
+
+
+/*nav Bar*/
+nav{
+    background-color: #2f948d;
+}
+nav u1{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav u1 li {
+    padding: 10px 20px;
+}
+
+nav u1 li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav u1 li:hover {
+    background-color: #015d56;
+    transition: 0.9s;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+footer a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    background-color: #2f948d;
+    padding: 10px 25px;
+}
+
+footer a:hover {
+    background-color: #015d56;
+    transition: 0.9s;
+}
+
+/*media query*/
+@media only screen and (max-width: 767px) {
+    nav u1{
+        height: 230px;
+        flex-direction: column;
+        text-align: center;
+        width:200;
+    }
+       #desk {
+        object-fit: cover;
+        width: 400px;
+    }
+
+}
